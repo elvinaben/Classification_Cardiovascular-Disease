@@ -1,12 +1,10 @@
 # Cardiovascular Disease Classification
 
 ## Problem Statement
-Heart health has always been a critical topic, and early diagnosis can be life-saving. I chose to work on cardiovascular disease classification because of its real-world impact—accurately identifying those at risk can make a significant difference. The dataset, sourced from [Kaggle](https://www.kaggle.com), includes various patient metrics, such as age, cholesterol levels, and blood pressure, with the goal of predicting the presence (`1`) or absence (`0`) of cardiovascular disease.
+Cardiovascular disease has been identified as a critical health issue, where early diagnosis can be life-saving. This project was undertaken with the goal of predicting the presence or absence of cardiovascular disease using a dataset sourced from [Kaggle](https://www.kaggle.com). The dataset includes various patient metrics, such as age, cholesterol levels, and blood pressure, with the target variable indicating either the presence (`1`) or absence (`0`) of cardiovascular disease.
 
 ## Objective
-The objective of this project was clear: develop a model that prioritizes **recall for class 1**, ensuring that people with cardiovascular disease are correctly identified. Minimizing false negatives is crucial because predicting a person as healthy when they have a condition could lead to serious consequences. Through this project, I aimed to find the best classification model to support early detection efforts.
-
-This version adds a personal touch and highlights your motivation behind the project.
+The primary objective of this project was to develop a model that focuses on **recall for class 1**, ensuring individuals with cardiovascular disease are correctly identified. Minimizing false negatives was prioritized due to the serious consequences of misclassifying someone with the disease as healthy. The goal was to find the most accurate classification model to support early detection efforts and improve diagnosis accuracy.
 
 
 ## Dataset Description
