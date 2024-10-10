@@ -1,12 +1,13 @@
 # Cardiovascular Disease Classification
 
 ## Problem Statement
-The dataset for cardiovascular disease classification is sourced from [Kaggle](https://www.kaggle.com). It contains 17 features, with the target variable `cardio` indicating the presence or absence of cardiovascular disease. The `cardio` variable is binary, where `0` represents no cardiovascular disease, and `1` indicates the presence of cardiovascular disease.
+Heart health has always been a critical topic, and early diagnosis can be life-saving. I chose to work on cardiovascular disease classification because of its real-world impact—accurately identifying those at risk can make a significant difference. The dataset, sourced from [Kaggle](https://www.kaggle.com), includes various patient metrics, such as age, cholesterol levels, and blood pressure, with the goal of predicting the presence (`1`) or absence (`0`) of cardiovascular disease.
 
-Given the critical nature of the problem, the focus is on minimizing false negatives—predicting individuals with cardiovascular disease (class 1) as not having it (class 0). 
+## Objective
+The objective of this project was clear: develop a model that prioritizes **recall for class 1**, ensuring that people with cardiovascular disease are correctly identified. Minimizing false negatives is crucial because predicting a person as healthy when they have a condition could lead to serious consequences. Through this project, I aimed to find the best classification model to support early detection efforts.
 
-## Objectives
-The primary objective of this project is to develop and evaluate classification models to accurately predict the presence or absence of cardiovascular disease. The evaluation metric prioritized in this project is **recall for class 1**, as it emphasizes minimizing false negatives, which is essential in medical diagnoses.
+This version adds a personal touch and highlights your motivation behind the project.
+
 
 ## Dataset Description
 The dataset consists of 68,205 rows and 17 columns. Below is an overview of the key features:
